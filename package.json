@@ -1,0 +1,30 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "This service fetches and stores launches data using mongodb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swathidevdynamo/launcheservice.git"
+  },
+  "author": "Swathi, M",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0"
+  },
+  "bugs": {
+    "url": "https://github.com/swathidevdynamo/launcheservice/issues"
+  },
+  "homepage": "https://github.com/swathidevdynamo/launcheservice#readme"
+}
